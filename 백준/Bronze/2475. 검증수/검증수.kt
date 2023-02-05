@@ -1,0 +1,1 @@
+fun main() = println(readln().split(" ").sumOf { it.toInt().run { this * this } } % 10)
